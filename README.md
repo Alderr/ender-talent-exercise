@@ -11,7 +11,9 @@ Use the bare wireframe image to build a page with property cards at the top. Whe
 
 When fetching data, you must include 'token' in the request body.
 
+```
 https://talent.ender.com/fe-challenge/properties
 https://talent.ender.com/fe-challenge/properties/[PROPERTY ID]/leases
+```
 
 
