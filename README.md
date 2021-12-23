@@ -16,4 +16,8 @@ https://talent.ender.com/fe-challenge/properties
 https://talent.ender.com/fe-challenge/properties/[PROPERTY ID]/leases
 ```
 
+## Starting The Application
 
+```javascript
+npm start
+```
