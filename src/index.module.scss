@@ -1,14 +1,16 @@
 @import "src/assets/styles/colors.scss";
 
+* {
+  box-sizing: border-box;
+}
+
 html {
-  position: relative;
+  background: $black url("~assets/images/stars.png") repeat top center;
+  z-index: -2;
 }
 
 body {
-  display: flex;
-  width: 100%;
-  min-height: 100vh;
-  height: fit-content;
+  overflow: auto !important;
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -16,9 +18,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(
-    172deg,
-    $deep-violet 13%,
-    $cetacean-blue 83%
-  );
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
 }

@@ -4,13 +4,12 @@ import axios from "axios";
 import Header from "components/Header/index";
 import PropertyList from "components/PropertyList/index";
 import LeasesTable from "components/LeasesTable/index";
-import Footer from "components/Footer/index";
 import s from "./app.module.scss";
 
 function App() {
   const [properties, setProperties] = useState([]);
-  const [selectedProperty, setSelectedProperty] = useState({});
   const [leases, setLeases] = useState([]);
+  const [selectedProperty, setSelectedProperty] = useState({});
 
   useEffect(() => {
     const getProperties = async () => {
@@ -40,6 +39,8 @@ function App() {
 
   return (
     <div className={s.app}>
+      <div className={s.stars}></div>
+      <div className={s.twinkling}></div>
       <Header />
       <PropertyList
         properties={properties}
@@ -47,7 +48,6 @@ function App() {
         handlePropertyClick={handlePropertyClick}
       />
       <LeasesTable selectedProperty={selectedProperty} leases={leases} />
-      <Footer />
     </div>
   );
 }

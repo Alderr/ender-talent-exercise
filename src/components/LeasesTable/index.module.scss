@@ -2,25 +2,35 @@
 
 .table-container {
   justify-content: center;
-  margin: 40px;
-  color: $text-color;
+  margin: 40px 40px 300px;
+  color: $raisin-black;
 }
 
 .property-name {
-  color: $sub-title;
+  color: $black;
+}
+
+.message-box {
+  width: 100%;
+  padding: 24px 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: $white;
 }
 
 table {
   width: 100%;
+  border-collapse: collapse;
+  background-color: $white;
+  border-radius: 5px;
 }
 
-th {
-  background-color: $indigo;
+thead {
+  background-color: $gainsboro;
 }
 
 th,
 td {
   padding: 5px;
   text-align: left;
-  border-bottom: 1px solid lightgray;
 }

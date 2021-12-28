@@ -1,5 +1,7 @@
 import React from "react";
 
+import s from "./index.module.scss";
+
 const TableRow = ({ lease }) => {
   const {
     companyName = "",
@@ -17,7 +19,7 @@ const TableRow = ({ lease }) => {
   }
 
   return (
-    <tr>
+    <tr className={s.entry}>
       <td>{companyName}</td>
       <td>{startDate}</td>
       <td>{inclusiveEndDate}</td>
