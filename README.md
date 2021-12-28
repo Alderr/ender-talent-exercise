@@ -18,6 +18,18 @@ https://talent.ender.com/fe-challenge/properties/[PROPERTY ID]/leases
 
 ## Starting The Application
 
+[1] Create a .env file with your API token
+
+```
+REACT_APP_API_TOKEN=fancy-new-token-123-sprite
+```
+
+[2] Install packages 
+```javascript
+npm install
+```
+
+[3] Start application 
 ```javascript
 npm start
 ```
