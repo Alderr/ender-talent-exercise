@@ -1,0 +1,26 @@
+@import "src/assets/styles/colors.scss";
+
+.table-container {
+  justify-content: center;
+  margin: 40px;
+  color: $text-color;
+}
+
+.property-name {
+  color: $sub-title;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: $indigo;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid lightgray;
+}
