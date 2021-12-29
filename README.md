@@ -3,6 +3,9 @@
 Build a single page application that displays various Properties and Leases.
 Be creative. Show off your styling abilities. Please avoid UI libraries like Material, etc.
 
+## Showcase
+![Project Image](https://i.ibb.co/R60hfbw/image.png)
+
 ## Instructions
 
 Use the bare wireframe image to build a page with property cards at the top. When clicking on a property, show all relevant leases in a table. When completed, please email talent@ender.com with your project zip file attached or a link to the zip file.
@@ -33,6 +36,3 @@ npm install
 ```javascript
 npm start
 ```
-
-## Showcase
-![Project Image](https://i.ibb.co/R60hfbw/image.png)
