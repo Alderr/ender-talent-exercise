@@ -33,3 +33,6 @@ npm install
 ```javascript
 npm start
 ```
+
+## Showcase
+![Project Image](https://i.ibb.co/R60hfbw/image.png)
